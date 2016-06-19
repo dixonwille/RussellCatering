@@ -1,0 +1,33 @@
+body, html{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home{
+  background-image: url(/img/veggies.jpg);
+  height: 100%;
+  color: #fff;
+}
+
+#menu{
+  background-image: url(/img/lowCountryBoil.jpg);
+  height: 100%;
+  color: #fff;
+}
+
+#services{
+  background-color: #fff;
+  height: 500px;
+}
+
+#contact{
+  background-color: #fff;
+  height: 500px;
+}
