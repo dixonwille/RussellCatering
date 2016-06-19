@@ -14,12 +14,14 @@ body, html{
   background-image: url(/img/veggies.jpg);
   height: 100%;
   color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #menu{
   background-image: url(/img/lowCountryBoil.jpg);
   height: 100%;
   color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #services{
@@ -30,4 +32,12 @@ body, html{
 #contact{
   background-color: #fff;
   height: 500px;
+}
+
+.container h1{
+  text-align: center;
+  font-size: 5em;
+}
+h1 small{
+  color: #fff;
 }
