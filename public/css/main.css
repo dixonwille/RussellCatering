@@ -3,6 +3,10 @@ body, html{
   padding: 0;
   margin: 0;
 }
+
+body{
+  font-size: 20px;
+}
 .parallax{
   background-attachment: fixed;
   background-position: center;
@@ -19,25 +23,52 @@ body, html{
 
 #menu{
   background-image: url(/img/lowCountryBoil.jpg);
-  height: 100%;
+}
+#menu h2{
   color: #fff;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #services{
   background-color: #fff;
-  height: 500px;
+  text-align: center;
 }
 
 #contact{
   background-color: #fff;
-  height: 500px;
 }
 
 .container h1{
   text-align: center;
   font-size: 5em;
 }
+.container h2{
+  text-align: center;
+  font-size: 3.5em;
+}
+.container h3{
+  text-align: center;
+  font-size: 2em;
+}
+
+#services .row:last-child{
+  margin-bottom: 20px;
+}
+
 h1 small{
   color: #fff;
+}
+
+.service .image img{
+  width:100%;
+  height:auto;
+}
+
+.contactInfo{
+  text-align: center;
+}
+.contactInfo .icon{
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
