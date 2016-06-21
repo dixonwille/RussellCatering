@@ -76,3 +76,24 @@ h1 small{
 .jumptarget {
   padding-top: 50px;
 }
+
+.jumptarget h2,
+.jumptarget h3{
+  padding-bottom: 50px;
+}
+
+#footer{
+  margin-top: 20px;
+}
+
+#footer .navbar{
+  margin-bottom: 0;
+}
+
+.copyright{
+  margin-right: 15px;
+}
+
+.copyright small{
+  font-size: 75%;
+}
