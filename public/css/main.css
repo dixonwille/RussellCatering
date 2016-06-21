@@ -78,7 +78,7 @@ h1 small{
 }
 
 .jumptarget h2,
-.jumptarget h3{
+#contact.jumptarget h3{
   padding-bottom: 50px;
 }
 
