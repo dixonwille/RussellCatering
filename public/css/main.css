@@ -72,3 +72,7 @@ h1 small{
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+.jumptarget {
+  padding-top: 50px;
+}
